@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navigation Layout</title>
+    <title>Steven Howard</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon-free.png" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -61,10 +62,20 @@
               <a class="nav-link fw-bold" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="#skills">Skills</a>
+              <a class="nav-link fw-bold d-lg-block d-none" href="#skills"
+                >Skills</a
+              >
+              <a class="nav-link fw-bold d-lg-none d-block" href="#skills2"
+                >Skills</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="#portfolio">Portfolio</a>
+              <a class="nav-link fw-bold d-md-block d-none" href="#portfolio"
+                >Portfolio</a
+              >
+              <a class="nav-link fw-bold d-md-none d-block" href="#portfolio2"
+                >Portfolio</a
+              >
             </li>
           </ul>
         </div>
@@ -297,7 +308,7 @@
       </div>
     </div>
     <!-- * State Display 2 * -->
-    <div class="my-5 d-lg-none d-block" id="skills">
+    <div class="my-5 d-lg-none d-block" id="skills2">
       <h1 class="text-center">SKILLS</h1>
       <!-- Programing Language Card  -->
       <div
@@ -452,8 +463,8 @@
               <span class="fw-semibold">PHP</span>
             </div>
             <div>
-              <i class="devicon-mariadb-original-wordmark colored"></i>
-              <span class="fw-semibold">Maria DB</span>
+              <i class="devicon-mysql-original colored"></i>
+              <span class="fw-semibold">MySQL</span>
             </div>
           </div>
         </div>
@@ -507,7 +518,7 @@
       </div>
     </section>
     <!-- * State Display 2 * -->
-    <section class="container mx-auto d-block d-md-none" id="portfolio">
+    <section class="container mx-auto d-block d-md-none" id="portfolio2">
       <h1 class="text-center pt-5">PORTFOLIO</h1>
       <!-- Project 1 -->
       <div
@@ -559,7 +570,7 @@
               <i class="devicon-php-plain colored fs-1"></i>
             </div>
             <div>
-              <i class="devicon-mariadb-original-wordmark colored fs-1"></i>
+              <i class="devicon-mysql-original colored fs-1"></i>
             </div>
           </div>
         </div>
@@ -718,6 +729,7 @@
       });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
     <script src="script.js"></script>
   </body>
 </html>

@@ -27,7 +27,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
     />
-
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -68,6 +71,9 @@
               <a class="nav-link fw-bold d-lg-none d-block" href="#skills2"
                 >Skills</a
               >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#service">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-bold d-md-block d-none" href="#portfolio"
@@ -360,7 +366,7 @@
         "
       >
         <div class="card-body">
-          <p class="text-center fw-bold mb-4">Frameworks</p>
+          <p class="text-center fw-bold mb-4">Technologies</p>
           <div class="d-flex flex-row justify-content-center gap-2">
             <i class="devicon-arduino-plain fs-1" style="color: #737373"></i>
             <i
@@ -385,10 +391,62 @@
       </div>
     </div>
 
+    <!-- =============== SERVICES  =============== -->
+    <section style="background-color: #37accc; margin-top: 100px" id="service">
+      <section class="container text-white fw-bold p-5" id="about">
+        <h3 class="fw-bold text-center">WHAT I OFFER</h3>
+        <div class="row mt-5">
+          <!-- Card 1: Web Development -->
+          <div class="col-lg-4 col-md-12 col-12 mb-4">
+            <div class="card p-3 border-0 shadow-lg h-100">
+              <div class="icon-circle mx-auto my-3">
+                <i class="fa fa-code fs-1" aria-hidden="true"></i>
+              </div>
+              <h4 class="text-center">Web Development</h4>
+              <p class="mt-2 text-center px-3">
+                From simple landing pages to complex web applications, I can
+                bring your ideas to life using web technologies such as Blazor
+                and ASP.NET Core.
+              </p>
+            </div>
+          </div>
+          <!-- Card 2: API Development -->
+          <div class="col-lg-4 col-md-12 col-12 mb-4">
+            <div class="card p-3 border-0 shadow-lg h-100">
+              <div class="icon-circle mx-auto my-3">
+                <i class="fa fa-cloud fs-1" aria-hidden="true"></i>
+              </div>
+              <h4 class="text-center">Custom API Design & Development</h4>
+              <p class="mt-2 text-center px-3">
+                From seamless API integration to scalable backend systems, I can
+                bring your ideas to life using technologies such as ASP.NET
+                Core, C#, and MariaDB.
+              </p>
+            </div>
+          </div>
+          <!-- Card 3: Micro Electronics -->
+          <div class="col-lg-4 col-md-12 col-12 mb-4">
+            <div class="card p-3 border-0 shadow-lg h-100">
+              <div class="icon-circle mx-auto my-3">
+                <i class="fa fa-cogs fs-1" aria-hidden="true"></i>
+              </div>
+              <h4 class="text-center">Micro Electronics</h4>
+              <p class="mt-2 text-center px-3">
+                From interactive gadgets to complex IoT systems, I can bring
+                your ideas to life using microelectronics and technologies such
+                as Python, Arduino, and Raspberry Pi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
     <!-- =============== PORTFOLIO  =============== -->
     <!-- * State Display 1 * -->
     <section class="container mx-auto d-none d-md-block" id="portfolio">
       <h1 class="text-center pt-5">PORTFOLIO</h1>
+      <p class="text-center">(My Recent Works)</p>
       <!-- Project 1 -->
       <div
         class="d-flex flex-lg-row flex-column mt-5 mx-5 gap-3 card"
@@ -520,6 +578,7 @@
     <!-- * State Display 2 * -->
     <section class="container mx-auto d-block d-md-none" id="portfolio2">
       <h1 class="text-center pt-5">PORTFOLIO</h1>
+      <p class="text-center">(My Recent Works)</p>
       <!-- Project 1 -->
       <div
         class="d-flex flex-column mt-5 mx-5 gap-3 card"
@@ -653,7 +712,10 @@
                   placeholder="Write Something.."
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-light w-100 text-dark">
+              <button
+                type="submit"
+                class="btn btn-light w-100 text-dark fw-bold"
+              >
                 SEND
               </button>
             </form>

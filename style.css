@@ -159,6 +159,22 @@ section .title span a::after {
   border: none;
 }
 
+.icon-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px; /* Adjust size */
+  height: 80px; /* Adjust size */
+  border-radius: 50%; /* Makes it circular */
+  background-color: #f0f0f0; /* Background color of the circle */
+  border: 2px solid #37accc; /* Optional border for styling */
+  color: #37accc; /* Icon color */
+}
+
+.icon-circle i {
+  font-size: 2rem; /* Adjust icon size */
+}
+
 /*=============== ANIMATION ===============*/
 
 @keyframes fade {

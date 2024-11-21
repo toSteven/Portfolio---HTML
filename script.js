@@ -1,3 +1,5 @@
+// ==================== PARTICLES =============================
+
 const canvas = document.querySelector("#div__particles canvas");
 const ctx = canvas.getContext("2d");
 const branding = `rgba(20, 117, 188, ${Math.random() * 0.3 + 0.3})`;

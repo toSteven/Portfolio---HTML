@@ -4,33 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Steven Howard</title>
+    <!-- Favicon for the webpage -->
     <link rel="icon" type="image/x-icon" href="image/favicon-free.png" />
+    <!-- Devicons CDN -->
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
+    <!-- Open Sans font CDN -->
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
       type="text/css"
     />
+    <!-- Kanit and Poppins fonts CDN -->
     <link
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@500&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap 5 CSS CDN -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <!-- Splide.js styles CDN -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
     />
+    <!-- Font Awesome icons CDN -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       rel="stylesheet"
     />
+    <!-- Local stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -57,29 +65,46 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link fw-bold" aria-current="page" href="#home"
+              <a
+                class="nav-link fw-bold text-center"
+                aria-current="page"
+                href="#home"
                 >Home</a
               >
+              <hr class="d-lg-none d-block m-0" />
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="#about">About</a>
+              <a class="nav-link fw-bold text-center" href="#about">About</a>
+              <hr class="d-lg-none d-block m-0" />
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold d-lg-block d-none" href="#skills"
+              <a
+                class="nav-link fw-bold d-lg-block d-none text-center"
+                href="#skills"
                 >Skills</a
               >
-              <a class="nav-link fw-bold d-lg-none d-block" href="#skills2"
+              <a
+                class="nav-link fw-bold d-lg-none d-block text-center"
+                href="#skills2"
                 >Skills</a
               >
+              <hr class="d-lg-none d-block m-0" />
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="#service">Services</a>
+              <a class="nav-link fw-bold text-center" href="#service"
+                >Services</a
+              >
+              <hr class="d-lg-none d-block m-0" />
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold d-md-block d-none" href="#portfolio"
+              <a
+                class="nav-link fw-bold d-md-block d-none text-center"
+                href="#portfolio"
                 >Portfolio</a
               >
-              <a class="nav-link fw-bold d-md-none d-block" href="#portfolio2"
+              <a
+                class="nav-link fw-bold d-md-none d-block text-center"
+                href="#portfolio2"
                 >Portfolio</a
               >
             </li>
@@ -130,13 +155,13 @@
     </section>
 
     <!-- =============== SKILLS  =============== -->
-    <!-- * State Display 1 * -->
+    <!-- Skills Display State 1  -->
     <div class="my-5 d-lg-block d-none" id="skills">
       <h1 class="text-center">SKILLS</h1>
       <div
         class="d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-center align-items-center gap-5 mt-5 mx-md-5"
       >
-        <!-- Programing Language Card  -->
+        <!-- Card 1: Programing Language -->
         <div
           class="card no-border rounded-0 px-2"
           style="
@@ -195,7 +220,7 @@
             </div>
           </div>
         </div>
-        <!-- Framework Card  -->
+        <!-- Card 2: Framework -->
         <div
           class="card no-border rounded-0 px-2"
           style="
@@ -245,7 +270,7 @@
             </div>
           </div>
         </div>
-        <!-- Technologies Card -->
+        <!-- Card 3: Technologies -->
         <div
           class="card no-border rounded-0 px-2"
           style="
@@ -313,7 +338,7 @@
         </div>
       </div>
     </div>
-    <!-- * State Display 2 * -->
+    <!-- Skills Display State 2  -->
     <div class="my-5 d-lg-none d-block" id="skills2">
       <h1 class="text-center">SKILLS</h1>
       <!-- Programing Language Card  -->
@@ -443,7 +468,7 @@
     </section>
 
     <!-- =============== PORTFOLIO  =============== -->
-    <!-- * State Display 1 * -->
+    <!-- Portfolio Display State 1  -->
     <section class="container mx-auto d-none d-md-block" id="portfolio">
       <h1 class="text-center pt-5">PORTFOLIO</h1>
       <p class="text-center">(My Recent Works)</p>
@@ -575,7 +600,7 @@
         </div>
       </div>
     </section>
-    <!-- * State Display 2 * -->
+    <!-- Portfolio Display State 2  -->
     <section class="container mx-auto d-block d-md-none" id="portfolio2">
       <h1 class="text-center pt-5">PORTFOLIO</h1>
       <p class="text-center">(My Recent Works)</p>
@@ -670,8 +695,9 @@
         </div>
       </div>
     </section>
+
     <!-- =============== CONTACT  =============== -->
-    <div style="background-color: #37accc" id="contact">
+    <section style="background-color: #37accc" id="contact">
       <section class="container mt-5 py-5">
         <h1 class="text-center text-white mb-4">CONTACT ME</h1>
         <div class="row align-items-start justify-content-center">
@@ -750,48 +776,11 @@
           </div>
         </div>
       </section>
-    </div>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const sections = document.querySelectorAll("section[id]");
-        const navLinks = document.querySelectorAll(".nav-link"); // Select all nav links
+    </section>
 
-        function scrollActive() {
-          const scrollY = window.pageYOffset;
-
-          sections.forEach((current) => {
-            const sectionHeight = current.offsetHeight;
-            const sectionTop = current.offsetTop - 80;
-            const sectionId = current.getAttribute("id");
-
-            // Remove 'active-link' from all nav links first
-            navLinks.forEach((link) => link.classList.remove("active-link"));
-
-            // Add 'active-link' to the current section's link if in view
-            if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
-              document
-                .querySelector(".nav-link[href*=" + sectionId + "]")
-                .classList.add("active-link");
-            }
-          });
-        }
-
-        function scrollHeader() {
-          const header = document.getElementById("header");
-          if (window.scrollY >= 80) {
-            header.classList.add("scroll-header");
-          } else {
-            header.classList.remove("scroll-header");
-          }
-        }
-
-        // Add event listeners for both scrolling effects
-        window.addEventListener("scroll", scrollActive);
-        window.addEventListener("scroll", scrollHeader);
-      });
-    </script>
+    <!-- Bootstrap 5 JavaScript bundle CDN (includes Popper.js for tooltips and dropdowns) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-
+    <!-- Local JavaScript file -->
     <script src="script.js"></script>
   </body>
 </html>

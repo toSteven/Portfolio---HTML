@@ -159,6 +159,8 @@ section .title span a::after {
   border: none;
 }
 
+/*=============== SERVICES ===============*/
+
 .icon-circle {
   display: flex;
   justify-content: center;
@@ -209,6 +211,7 @@ section .title span a::after {
 }
 
 /*=============== MEDIA QUERIES ===============*/
+
 @media screen and (max-width: 320px) {
   /* Home */
   .section__home {
